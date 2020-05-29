@@ -23,14 +23,44 @@ img{
 	max-width: 100%;
 	height: auto;
 }
-
-/*----------------------
-* utility
-----------------------*/
 .text-center{
 	text-align: center;
 }
 
+/*----------------------
+* contents
+----------------------*/
+.inner{
+	box-sizing: border-box;
+	padding: 40px 15px 42px;
+}
+.goods-list{
+	display: flex;
+	-webkit-display: flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	margin: 0;
+	margin-left: -15px;
+	padding: 0;
+	font-size: 1rem;
+	letter-spacing: 0.1em;
+}
+.goods-item{
+	box-sizing: border-box;
+	width: 50%;
+	padding-left: 15px;
+	margin-bottom: 24px;
+}
+.goods-thumb{
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+.goods-title{
+	display: block;
+	margin-bottom: 10px;
+	list-style: 1;
+}
+	
 /*----------------------
 * footer
 ----------------------*/
