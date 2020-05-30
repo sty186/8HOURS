@@ -26,7 +26,54 @@ img{
 .text-center{
 	text-align: center;
 }
-
+/*----------------------
+* header
+----------------------*/
+.header-inner{
+	position: relative;
+	padding: 15px;
+}
+.site-title{
+	max-width: 72px;
+	margin: 0 auto;
+	line-height: 1;
+}
+.btn-trigger{
+	position: absolute;
+	top: 15px;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	border-radius: 0;
+	background-color: #8fafc3;
+}
+.lang-list{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	margin: 0;
+	font-size: 1rem;
+	line-height: 1;
+	text-transform: uppercase;
+}
+.lang-item{
+	display: inline-block;
+}
+.lang-item.current>a{
+	color: #8fafc3;
+}
+.lang-item:last-of-type::before{
+	position: relative;
+	content: "/";
+	left: -1px;
+}
+/*----------------------
+* navigation
+----------------------*/
+.navigation{
+	display: none;
+}
 /*----------------------
 * contents
 ----------------------*/

@@ -25,30 +25,29 @@
 <body>
 	<!--header-->
 	<header>
-				
-		<h1>8HOURS</h1>
-		
-		<button class="btn-trigger">
-			<svg viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="menuButtonTitle">
-			<title id="menuButtonTitle">Menu</title>
-			<symbol id="bar">
-				<rect width="22" height="4" fill="#fff"></rect>
-			</symbol>
-			<use xlink:href="#bar" x="11" y="11"></use>
-			<use xlink:href="#bar" x="11" y="21"></use>
-			<use xlink:href="#bar" x="11" y="31"></use>
-			</svg>
-			Menu
-		</button>
-		
-		<ul>
-			<li><a href="#">Ja</a></li>
-			<li><a href="#">En</a></li>
-		</ul>
-		
+		<div class="header-inner">
+			<h1 class="site-title"><img src="images/logo.svg" alt="8HOURS"></h1>
+
+			<button class="btn-trigger">
+				<svg viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="menuButtonTitle">
+				<title id="menuButtonTitle">Menu</title>
+				<symbol id="bar">
+					<rect width="22" height="4" fill="#fff"></rect>
+				</symbol>
+				<use xlink:href="#bar" x="11" y="11"></use>
+				<use xlink:href="#bar" x="11" y="21"></use>
+				<use xlink:href="#bar" x="11" y="31"></use>
+				</svg>
+				Menu
+			</button>
+
+			<ul class="lang-list">
+				<li class="lang-item current"><a href="#">Ja</a></li>
+				<li class="lang-item"><a href="#">En</a></li>
+			</ul>
+		</div>	
 		<!--navigation-->
-		<div>
-			
+		<div class="navigation">
 			<!--Search-->
 			<form action="" method="get">
 				<input type="text" class="search" placeholder="Search">
