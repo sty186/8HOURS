@@ -79,10 +79,12 @@ img{
 .navigation{
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: -120%;
 	width: 265px;
 	padding: 35px;
 	background-color: rgba(255,255,255,0.95);
+	line-height: 1;
+	letter-spacing: 0.1em;
 }
 /*Search Form*/
 .form-search{
@@ -102,6 +104,54 @@ img{
 	padding: 0;
 	color: #b7b3b3;
 	font-size: 1.6rem;
+}
+
+.nav-list{
+	margin: 0;
+	padding: 0 0 24px;
+}
+.nav-item{
+	margin-bottom: 24px;
+	text-transform: uppercase;
+}
+.nav-item.specific{
+	margin: 40px 0;
+}
+.nav-item.specific>a{
+	color: #8fafc3;
+}
+.nav-line{
+	width: 54px;
+	height: 2px;
+	margin: 0;
+	text-align: left;/*for IE,Edge*/
+}
+.nav-title{
+	display: inline-block;
+	margin: 44px 0;
+	color: #8fafc3;
+	font-family: "playfair Display",serif;
+	font-style: italic;
+	text-transform: uppercase;
+}
+/*btn close*/
+.btn-close{
+	overflow: hidden;
+	position: absolute;
+	top: 16px;
+	right: -48px;
+	padding: 0;
+	border-radius: 0;
+	background-color: #8fafc3;
+	white-space: nowrap;
+}
+.btn-close use:nth-of-type(1) {
+    -webkit-transform: translateY(30px) rotate(-45deg);
+    transform: translateY(30px) rotate(-45deg);
+}
+.btn-close use:nth-of-type(2) {
+    -webkit-transform: translateX(35px) translateY(-15px) rotate(45deg);
+    transform: translateX(35px) translateY(-15px) rotate(45deg);
 }
 /*----------------------
 * contents
