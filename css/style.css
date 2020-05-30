@@ -29,6 +29,11 @@ img{
 /*----------------------
 * header
 ----------------------*/
+.header{
+	height: 100vw;	
+	background-image: url("../images/slide/slide_1_sp.png");
+	background-size: cover;
+}
 .header-inner{
 	position: relative;
 	padding: 15px;
@@ -72,7 +77,7 @@ img{
 * navigation
 ----------------------*/
 .navigation{
-	display: none;
+	
 }
 /*----------------------
 * contents
