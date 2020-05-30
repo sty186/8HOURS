@@ -77,7 +77,31 @@ img{
 * navigation
 ----------------------*/
 .navigation{
-	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 265px;
+	padding: 35px;
+	background-color: rgba(255,255,255,0.95);
+}
+/*Search Form*/
+.form-search{
+	position: relative;
+	margin-bottom: 56px;
+	border-bottom: solid 1px #b7b3b3;
+	font-size: 1.4rem;
+}
+.form-parts{
+	width: 100%;
+	text-transform: uppercase;
+}
+.btn-search{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+	color: #b7b3b3;
+	font-size: 1.6rem;
 }
 /*----------------------
 * contents
