@@ -73,6 +73,9 @@ img{
 	content: "/";
 	left: -1px;
 }
+.message{
+	display: none;
+}
 /*----------------------
 * navigation
 ----------------------*/
@@ -200,6 +203,70 @@ img{
 		margin: 0 auto;
 		padding: 56px 0 116px;
 	}
+	/*----------------------
+	* header
+	----------------------*/
+	.header{
+		height: auto;
+		background-image: url("../images/slide/slide_1_pc.png");
+		background-position: center;
+	}
+	.header-inner{
+		max-width: 960px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.btn-trigger{
+		display: none;
+	}
+	.message{
+		display: block;
+		position: absolute;
+		top: 300px;
+		right: 10px;
+		color: #8fafc3;
+		font-family: 'Playfair Display',sans-serif;
+		font-size: 3.2rem;
+		font-style: italic;
+		line-height: 1.1;
+		margin: 0;
+	}
+	/*----------------------
+	* navigation
+	----------------------*/
+	.navigation{
+		position: relative;
+		top: -40px;
+		left: 0;
+		width: 150px;
+		margin: 0;
+		padding: 0;
+		background-color: transparent;
+		font-size: 1rem;
+	}
+	.form-parts{
+		font-size: 1rem;
+		line-height: 1.75;
+	}
+	.btn-search{
+		cursor: pointer;
+	}
+	.nav-list{
+		padding-bottom: 22px;
+	}
+	.nav-item{
+		margin-bottom: 18px;
+	}
+	.nav-item.specific{
+		margin: 30px 0;
+	}
+	.nav-title{
+		margin: 40px 0 30px;
+	}
+	.btn-close{
+		display: none;
+	}
+
 	/*----------------------
 	* contents
 	----------------------*/
