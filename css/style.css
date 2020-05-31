@@ -161,7 +161,7 @@ img{
 ----------------------*/
 .inner{
 	box-sizing: border-box;
-	padding: 40px 15px 42px;
+	padding: 40px 15px 44px;
 }
 .goods-list{
 	display: flex;
@@ -179,6 +179,7 @@ img{
 	width: 50%;
 	padding-left: 15px;
 	margin-bottom: 24px;
+	line-height: 1;	
 }
 .goods-thumb{
 	margin-top: 0;
@@ -194,7 +195,7 @@ img{
 * footer
 ----------------------*/
 .footer{
-	padding-bottom: 10px 0;
+	padding: 10px 0;
 }
 
 @media screen and (min-width:768px){
